@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>NewBot - Owner Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Panel Owner</h1></header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="admin.html">Administration</a>
+    <a href="owner.html">Owner</a>
+  </nav>
+
+  <section>
+    <h2>Accès réservé</h2>
+    <p>Cette section est réservée aux membres avec le badge <span class="badge owner">🛡️ Owner</span>.</p>
+
+    <div class="member-card">
+      <h3>Alexandre <span class="badge owner">🛡️ Owner</span></h3>
+      <p>Tu peux gérer les membres ici :</p>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Pseudo à ajouter">
+      <select>
+        <option>Owner</option>
+        <option>Dev</option>
+        <option>Support</option>
+      </select>
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <form>
+      <input type="text" placeholder="Créer un badge">
+      <button type="submit">Créer</button>
+    </form>
+  </section>
+
+  <footer>&copy; 2025 NewBot. Tous droits réservés.</footer>
+</body>
+</html>
